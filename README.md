@@ -31,53 +31,61 @@ install.packages(c("keras", "tensorflow", "dplyr", "yardstick"))
 Ensure that Keras and TensorFlow are correctly installed. You can follow the Keras for R installation guide
  if needed.
 
-Usage
+## Usage
 
 Open the MNIST.R script in R or RStudio.
 
 Run the script:
 
+```r
 source("MNIST.R")
-
+```
 
 The script will:
 
-Load the MNIST dataset
+ - Load the MNIST dataset
 
-Preprocess the images and labels
+ - Preprocess the images and labels
 
-Train a classification model
+ - Train a classification model
 
-Evaluate the model on the test set
+ - Evaluate the model on the test set
 
-Calculate per-class metrics (Precision, Recall, F1-score)
+ - Calculate per-class metrics (Precision, Recall, F1-score)
 
-Evaluation Metrics
+### Evaluation Metrics
 
-The script computes:
+  ## The script computes:
 
-Test loss and accuracy
-Example output:
+    - Test loss and accuracy
+       Example output:
+         Test loss: 0.0284
+         Test accuracy: 0.9915
 
-Test loss: 0.0284
-Test accuracy: 0.9915
+
+   ## Per-class metrics (Precision, Recall, F1-score)
+
+      -Example table:
+
+| Class | Precision | Recall | F1    |
+|-------|-----------|--------|-------|
+| 0     | 0.993     | 0.997  | 0.995 |
+| 1     | 0.995     | 0.997  | 0.996 |
+| 2     | 0.987     | 0.996  | 0.991 |
+| …     | …         | …      | …     |
+| 9     | 0.996     | 0.974  | 0.985 |
 
 
-Per-class metrics (Precision, Recall, F1-score)
-Example table:
 
-Class	Precision	Recall	F1
-0	0.993	0.997	0.995
-1	0.995	0.997	0.996
-2	0.987	0.996	0.991
-…	…	…	…
-9	0.996	0.974	0.985
-Summary
+
+##  Summary
 
 The trained model achieves high accuracy on the MNIST test set (~99%).
 Per-class evaluation shows strong performance across most digits, though some digits may have slightly lower F1-scores due to class imbalance. Overall, the results demonstrate the effectiveness of the chosen model and preprocessing pipeline.
 
-Notes
+
+
+## Notes
 
 The MNIST dataset is automatically downloaded within the script using Keras.
 
