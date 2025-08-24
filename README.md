@@ -61,11 +61,10 @@ The script will:
        Example output:
          Test loss: 0.0284
          Test accuracy: 0.9915
-
-
+         
    ## Per-class metrics (Precision, Recall, F1-score)
 
-      -Example table:
+      - Example table:
 
 | Class | Precision | Recall | F1    |
 |-------|-----------|--------|-------|
