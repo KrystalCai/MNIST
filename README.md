@@ -59,7 +59,9 @@ The script will:
   ### The script computes:
  - Test loss and accuracy
       Example output:
+   
         Test loss: 0.0284
+   
         Test accuracy: 0.9915
 
 
