@@ -63,7 +63,7 @@ The script will:
         Test accuracy: 0.9915
 
 
-   ### Per-class metrics (Precision, Recall, F1-score)
+  ### Per-class metrics (Precision, Recall, F1-score)
  - Example table:
 
 | Class | Precision | Recall | F1    |
