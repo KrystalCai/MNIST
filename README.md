@@ -13,9 +13,13 @@ All code is contained in the `MNIST.R` script.
 
 ## File Structure
 minst/
+
 ├─ MNIST.R # Main R script
+
 ├─ README.md # Project description (this file)
+
 └─ .gitignore # Optional, for ignoring temporary files
+
 ---
 
 ## Requirements
