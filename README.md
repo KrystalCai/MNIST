@@ -53,16 +53,19 @@ The script will:
 
  - Calculate per-class metrics (Precision, Recall, F1-score)
 
+
+
+
 ### Evaluation Metrics
 
-  ## The script computes:
-    - Test loss and accuracy
-       Example output:
-         Test loss: 0.0284
-         Test accuracy: 0.9915
+  # The script computes:
+    Test loss and accuracy
+      Example output:
+        Test loss: 0.0284
+        Test accuracy: 0.9915
 
-   ## Per-class metrics (Precision, Recall, F1-score)
-      - Example table:
+   # Per-class metrics (Precision, Recall, F1-score)
+     Example table:
 
 | Class | Precision | Recall | F1    |
 |-------|-----------|--------|-------|
