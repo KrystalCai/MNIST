@@ -55,8 +55,7 @@ The script will:
 
 
 
-
-### Evaluation Metrics
+# Evaluation Metrics
 
   # The script computes:
     Test loss and accuracy
